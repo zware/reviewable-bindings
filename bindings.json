@@ -1,5 +1,5 @@
 [
-  ["f", "Show next/latest diffs", "setProposedRevRanges()"],
+  ["f", "Show next/latest diffs", "setProposedDiffBounds()"],
 
   [null, "Next unreviewed file", "nextUnreviewedFile()"],
   [null, "Previous unreviewed file", "prevUnreviewedFile()"],
@@ -51,10 +51,11 @@
 
   [["r", "enter"], "Reply to comment", "replyToCurrentDiscussion()"],
   ["mod+d", "Reply to comment with 'Done'", "replyToCurrentDiscussion('Done.')"],
-  ["y", "Acknowledge comment", "acknowledgeCurrentDiscussion()"],
+  ["y", "Accept or acknowledge comment", "acknowledgeCurrentDiscussion()"],
   ["d", "Set disposition to \"discussing\"", "setCurrentDiscussionDisposition('discussing')"],
   ["s", "Set disposition to \"satisfied\"", "setCurrentDiscussionDisposition('satisfied')"],
   ["b", "Set disposition to \"blocking\"", "setCurrentDiscussionDisposition('blocking')"],
+  ["w", "Set disposition to \"working\"", "setCurrentDiscussionDisposition('working')"],
   ["mod+shift+o", "Show / hide older comments", "toggleCurrentDiscussionOlderComments()"],
   ["mod+shift+p", "Toggle draft preview", "toggleCurrentDraftPreview()"],
   [null, "Delete comment", "deleteDraft()"],
