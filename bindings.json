@@ -58,8 +58,8 @@
   ["w", "Set disposition to \"working\"", "setCurrentDiscussionDisposition('working')"],
   ["mod+shift+o", "Show / hide older comments", "toggleCurrentDiscussionOlderComments()"],
   ["mod+shift+p", "Toggle draft preview", "toggleCurrentDraftPreview()"],
-  [null, "Delete comment", "deleteDraft()"],
-  [null, "Publish current comment", "sendCurrentComment()"],
+  ["mod+delete", "Delete comment", "deleteDraft()"],
+  ["alt+enter", "Publish current comment", "sendCurrentComment()"],
 
   ["mod+shift+enter", "Publish all comments", "sendAll()"],
   [null, "Toggle bunny dropdown", "toggleOverlay()"],
