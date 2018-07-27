@@ -23,7 +23,8 @@
 [null, "First file", "firstFile()"],
 [null, "Last file", "lastFile()"],
 
-["x", "Mark file as reviewed / unreviewed", "toggleCurrentFileReviewed()"],
+[null, "Mark file as reviewed / unreviewed", "toggleCurrentFileReviewed()"],
+["x", "Mark file as reviewed and advance", "markFileReviewedAndAdvance()"],
 ["shift+x", "Mark all files as reviewed", "setGlobalReviewed()"],
 
 [null, "Next unreplied comment", "nextUnrepliedDiscussion()"],
@@ -66,7 +67,7 @@
 [null, "Toggle bunny dropdown", "toggleOverlay()"],
 [null, "Toggle status checks dropdown", "toggleRevisionStatus()"],
 [null, "Toggle changes dropdown", "toggleChangesDropdown()"],
-[null, "Toggle published message preview", "toggleSendAllPreviewDropdown()"],
+[null, "Toggle published message preview", "togglePublishDropdown()"],
 [null, "Go to the file matrix", "visitFileMatrix()"],
 
 [null, "Copy head branch name", "copyHeadBranch()"],
