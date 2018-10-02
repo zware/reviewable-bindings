@@ -23,7 +23,7 @@
 [null, "First file", "firstFile()"],
 [null, "Last file", "lastFile()"],
 
-[null, "Mark file as reviewed / unreviewed", "toggleCurrentFileReviewed()"],
+[";", "Mark file as reviewed / unreviewed", "toggleCurrentFileReviewed()"],
 ["x", "Mark file as reviewed and advance", "markFileReviewedAndAdvance()"],
 ["shift+x", "Mark all files as reviewed", "setGlobalReviewed()"],
 
