@@ -63,11 +63,10 @@
 ["mod+delete", "Delete comment", "deleteDraft()"],
 ["alt+enter", "Publish current comment", "sendCurrentComment()"],
 
-["mod+shift+enter", "Publish all comments", "sendAll()"],
+["mod+shift+enter", "Publish all comments", "publish()"],
 [null, "Toggle bunny dropdown", "toggleOverlay()"],
 [null, "Toggle status checks dropdown", "toggleRevisionStatus()"],
 [null, "Toggle changes dropdown", "toggleChangesDropdown()"],
-[null, "Toggle published message preview", "togglePublishDropdown()"],
 [null, "Go to the file matrix", "visitFileMatrix()"],
 
 [null, "Copy head branch name", "copyHeadBranch()"],
