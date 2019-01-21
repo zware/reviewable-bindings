@@ -38,8 +38,8 @@
 
 [null, "First unreplied comment", "firstUnrepliedDiscussion()"],
 [null, "Last unreplied comment", "lastUnrepliedDiscussion()"],
-[null, "First comment", "firstDiscussion()"],
-[null, "Last comment", "lastDiscussion()"],
+["g", "First comment", "firstDiscussion()"],
+["shift+g", "Last comment", "lastDiscussion()"],
 [null, "First unresolved comment", "firstUnresolvedDiscussionWithoutDraft()"],
 [null, "Last unresolved comment", "lastUnresolvedDiscussionWithoutDraft()"],
 [null, "First draft", "firstDraft()"],
