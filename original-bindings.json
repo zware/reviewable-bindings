@@ -3,8 +3,6 @@
 
 ["n", "Next unreviewed file", "nextUnreviewedFile()"],
 ["p", "Previous unreviewed file", "prevUnreviewedFile()"],
-[null, "Next personally unreviewed file", "nextPersonallyUnreviewedFile()"],
-[null, "Previous personally unreviewed file", "prevPersonallyUnreviewedFile()"],
 ["shift+n", "Next changed file", "nextChangedFile()"],
 ["shift+p", "Previous changed file", "prevChangedFile()"],
 [null, "Next visible file", "nextVisibleFile()"],
@@ -14,8 +12,6 @@
 
 [null, "First unreviewed file", "firstUnreviewedFile()"],
 [null, "Last unreviewed file", "lastUnreviewedFile()"],
-[null, "First personally unreviewed file", "firstPersonallyUnreviewedFile()"],
-[null, "Last personally unreviewed file", "lastPersonallyUnreviewedFile()"],
 [null, "First changed file", "firstChangedFile()"],
 [null, "Last changed file", "lastChangedFile()"],
 [null, "First visible file", "firstVisibleFile()"],
