@@ -1,10 +1,8 @@
 [
 ["f", "Show next/latest diffs", "setProposedDiffBounds()"],
 
-[null, "Next unreviewed file", "nextUnreviewedFile()"],
-[null, "Previous unreviewed file", "prevUnreviewedFile()"],
-["n", "Next personally unreviewed file", "nextPersonallyUnreviewedFile()"],
-["p", "Previous personally unreviewed file", "prevPersonallyUnreviewedFile()"],
+["n", "Next unreviewed file", "nextUnreviewedFile()"],
+["p", "Previous unreviewed file", "prevUnreviewedFile()"],
 ["shift+n", "Next changed file", "nextChangedFile()"],
 ["shift+p", "Previous changed file", "prevChangedFile()"],
 [null, "Next visible file", "nextVisibleFile()"],
@@ -14,8 +12,6 @@
 
 [null, "First unreviewed file", "firstUnreviewedFile()"],
 [null, "Last unreviewed file", "lastUnreviewedFile()"],
-[null, "First personally unreviewed file", "firstPersonallyUnreviewedFile()"],
-[null, "Last personally unreviewed file", "lastPersonallyUnreviewedFile()"],
 [null, "First changed file", "firstChangedFile()"],
 [null, "Last changed file", "lastChangedFile()"],
 [null, "First visible file", "firstVisibleFile()"],
