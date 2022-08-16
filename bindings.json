@@ -67,6 +67,7 @@
 [null, "Show and expand all comments", "showHideAllComments(true)"],
 [null, "Collapse all comments", "showHideAllComments(false)"],
 ["mod+shift+p", "Toggle draft preview", "toggleCurrentDraftPreview()"],
+["mod+shift+e", "Create draft code block", "createCodeblockInCurrentDraft()"],
 ["mod+delete", "Delete comment", "deleteDraft()"],
 ["alt+enter", "Publish current comment", "sendCurrentComment()"],
 
